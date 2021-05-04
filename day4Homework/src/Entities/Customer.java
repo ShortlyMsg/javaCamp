@@ -10,6 +10,7 @@ public class Customer implements Entity {
 	private Date dateOfBirth;
 	private Long nationalityId;
 	
+	
 	public Customer(int id, String firstName, String lastName, Date dateOfBirth, Long nationalityId) {
 		super();
 		this.id = id;
